@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Form Data Pribadi</h1>
+  <table border="1">
+
+   <tr>
+     <td> <label for="nama">Nama</label> </td>
+     <td>:</td>
+     <td> <input type="text" id="nama" name="nama"> </td>
+   </tr>
+
+  
+  <tr>
+    <td> <label for="alamat">Alamat</label> </td>
+    <td>:</td>
+    <td> <input type="text" id="alamat" name="alamat"> </td>
+  </tr>
+  
+  
+  <tr>
+     <td rowspan="3"> <label>Jenis Kelamin</label > </td>
+      <td rowspan="3">:</td>
+      <td> 
+        <label><input type="radio" id="pria" name="jenis_kelamin" value="pria">Pria</label>
+      </td>
+  </tr>
+  <tr>
+    <td> <label><input type="radio" id="wanita" name="jenis_kelamin" value="wanita">wanita</label> </td>
+  </tr>
+  <tr>
+    <td>
+      <label><input type="radio" id="tidak ingin memberitahu" name="jenis_kelamin" value="rahasia">tidak ingin memberitahu</label>
+    </td>
+  </tr>
+
+
+
+    <tr>
+    <td rowspan="6"><label>Hobi</label></td>
+    <td rowspan="6">:</td>
+    <div class="checkboxes">
+    </tr>
+      <br>
+      <tr>
+      <td>
+        <label><input type="checkbox" name="hobi" value="memasak"> Memasak</label>
+      </td>
+    
+  </tr>
+    
+    <tr>
+      <td>
+      <label><input type="checkbox" name="hobi" value="bersepeda"> Bersepeda</label>
+    </td>
+    </tr>
+  
+  
+  <tr>
+    <td>
+      <label><input type="checkbox" name="hobi" value="lari"> Lari</label>
+    </td>
+    </tr>
+  
+  
+  <tr>
+    <td>
+      <label><input type="checkbox" name="hobi" value="panahan"> Panahan</label>
+    </td>
+    </tr>
+  
+  
+  <tr>
+    <td>
+      <label><input type="checkbox" name="hobi" value="renang"> Renang</label>
+    </td>
+    </tr>
+  
+    </div>
+
+<tr>
+   <td colspan="3">
+    <input type="submit" value="Kirim">
+  </td>
+  </tr>
+  </br>
+
+  </table>
+</body>
+</html>
