@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: azure;
+}
+.container-header {
+  /* background-color: bisque; */
+  margin-left: 5%;
+  margin-right: 5%;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-header h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.container-header p {
+  text-align: center;
+}
+.container-artikel {
+  background-color: bisque;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-artikel .bagian-kiri {
+  background-color: blueviolet;
+}
+#artikel {
+  background-color: cadetblue;
+}
+.bagian-kanan h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+.b1 {
+  font-weight: lighter;
+}
+.b2 {
+  font-weight: 300;
+}
+.b3 {
+  font-weight: 400;
+}
+.b4 {
+  font-style: italic;
+  font-weight: 400;
+}
+.b5 {
+  font-weight: 500;
+}
+.b6 {
+  font-weight: 500;
+  font-style: italic;
+}
+.b7 {
+  font-weight: 600;
+}
+.b8 {
+  font-weight: 600;
+  font-style: italic;
+}
+.b9 {
+  font-weight: 700;
+}
+.b10 {
+  font-weight: 700;
+  font-style: italic;
+}
+.bagian-tengah {
+  margin-left: 40px;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+.bagian-tengah2 {
+  margin-left: 40px;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+.bagian-tengah3 {
+  margin-left: 40px;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+.bagaian-akhir {
+  text-align: center;
+}
+.bagian-akhir {
+  text-align: center;
+  font-size: 100px;
+  word-spacing: 70px;
+  font-weight: 400;
+  font-style: italic;
+}
+  
