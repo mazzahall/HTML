@@ -1,0 +1,70 @@
+.border-simple {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-radius {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-dashed {
+    border: 2px dashed red;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-dotted {
+    border: 2px dotted purple;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-double {
+    border: 4px double green;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-groove {
+    border: 4px groove purple;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-inset {
+    border: 4px inset orange;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-outset {
+    border: 4px outset blue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-ridge {
+    border: 4px ridge red;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-different-sides {
+    border-top: 4px solid red;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid green;
+    border-left: 4px solid orange;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.border-gradient {
+    border: 6px solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    padding: 10px;
+    margin: 10px 0;
+}
