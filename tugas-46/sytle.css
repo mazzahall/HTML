@@ -1,49 +1,92 @@
-#nav {
-  background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
 }
-
+nav {
+  background-color: #ff8f0c;
+}
 .container-nav {
-  display: flex;
-  background-color: antiquewhite;
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 25px;
 }
 ul {
   display: flex;
-  list-style: none;
-  width: 500px;
   justify-content: space-evenly;
+  width: 20em;
 }
-li {
-  background-color: chocolate;
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./asets/doodle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
-.rule{
-font-weight: 700;
-font-size: 51px;
+.hero-img {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
 }
-.help{
-font-weight: 700;
-font-size: 51px;
+.hero-img img {
+  width: 100%;
 }
-.collect{
-font-weight: 700;
-font-size: 23px;
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 100px;
 }
-.hero-img{
-    background-color: cadetblue;
-    width: 200px;
+.rule {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 30px;
 }
-.hero-img img{
-    width: 100%;
+.help {
+  font-family: "Alfa Slab One", serif;
+  font-size: 25px;
+  font-weight: 400;
 }
-.container-hero{
-    display: flex; 
-    justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
+.Collect {
+  font-family: "Alfa Slab One", serif;
+  font-size: 15px;
+  font-weight: 400;
 }
-#hero{
-    background-color: blueviolet;
+.container-support {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Alfa Slab One", serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Giants {
+  color: #ff8f0c;
+}
+.rule-text button {
+  background-color: #ff8f0c;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 13em;
+}
+.rule-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo-logo {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
 }
