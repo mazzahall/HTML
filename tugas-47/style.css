@@ -1,0 +1,140 @@
+.login {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.access {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.email{
+  padding-top: 8px;
+  padding-right: 15em;
+  padding-left: 5em;
+  padding-bottom: 5px;
+  width: 95%;
+}
+.password{
+  padding-top: 8px;
+  padding-right: 15em;
+  padding-left: 5em;
+  padding-bottom: 5px;
+  width: 95%;
+}
+.login-form .remember-me {
+  display: flex;
+  align-items: center;
+}
+span.remember {
+  margin: 1em 0 3em 0;
+  display: flex;
+  justify-content: space-between;
+  .forgot-password {
+    a {
+      text-decoration: none;
+      color: #ff8682;
+    }
+  }
+}
+.or {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 1em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.signup-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  a {
+    text-decoration: none;
+    color: #ff8682;
+  }
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin: 5px;
+    padding: 1em 5em;
+    border: 1px solid #515def;
+    width: 2em;
+    border-radius: 5px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.kiri {
+  img {
+    width: 616px;
+    height: 816px;
+    top: 104px;
+    left: 720px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.kanan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+  padding: 1em;
+  gap: 1em;
+  font-family: "Poppins";
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .login-text {
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    input,
+    button {
+      padding: 1em;
+    }
+    button {
+      border: none;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+    }
+    span.remember {
+      margin: 1em 0 3em 0;
+      display: flex;
+      justify-content: space-between;
+      .forgot-password {
+        a {
+          text-decoration: none;
+          color: #ff8682;
+        }
+      }
+    }
+  }
+}
+.container{
+  display: flex;
+}
