@@ -1,0 +1,14 @@
+.banner{
+    background-color: purple;
+    overflow: auto;
+}
+.banner img{
+    float: left;
+}
+.banner2{
+    background-color: blueviolet;
+    overflow: auto;
+}
+.banner2 img{
+    float: right;
+}
