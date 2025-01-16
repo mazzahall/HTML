@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    left: 10em;
+    top: 10em;
+    width: 300px;
+    background-color: rgb(251, 202, 183);
+}
+.overflow{
+background-color:blue;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;    
+}
+.tab{
+    color: white;
+    display: inline-block;
+    padding: 0em 2em;
+    margin: 5px 0px;
+
+    border-right: 1px solid white;  
+}
+.kata{
+    padding: 0.5em;
+}
