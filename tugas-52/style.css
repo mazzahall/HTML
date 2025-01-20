@@ -1,0 +1,16 @@
+.tugas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+.tugas li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.tugas li a:hover{
+    background-color: aqua;
+}
