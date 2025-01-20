@@ -1,0 +1,33 @@
+.container{
+    background-color: blueviolet;
+}
+.yellow-boxes{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.specifikasi-a{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.container-4{
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    position: fixed;
+    bottom:0px ;
+    right: 0px;
+}
+.container-5{
+    width: 400px;
+    height: 400px;
+    background-color:rebeccapurple;
+    position: sticky;
+    top:0px ;
+    
+}
+.height{
+    height: 10000px;
+}
