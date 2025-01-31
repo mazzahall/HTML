@@ -1,0 +1,19 @@
+:root {
+  --azzam-color:red;
+}
+
+.container {
+  background-color: red;
+}
+.container .box2 {
+  background-color: var(--azzam-color);
+}
+.container .box2 .a:hover {
+  background-color: cadetblue;
+}
+.container .box {
+  background-color: blue;
+}
+.container .box .a:hover {
+  background-color: burlywood;
+}/*# sourceMappingURL=style.css.map */

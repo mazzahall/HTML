@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+}
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    width: 60px;
+
+    img {
+      width: 120px;
+    }
+  }
+  .page1 {
+    margin-right: 120px;
+  }
+}
+.container {
+  display: flex;
+  margin: 45px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+
+  li {
+    list-style-type: none;
+    margin-right: 20px;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: white;
+      }
+    }
+  }
+
+  li:hover{
+    color: white;
+  }
+}
+.Welcome {
+  display: flex;
+  justify-content: space-evenly;
+  .photo {
+    width: 60px;
+    img {
+      width: 150px;
+      margin-left: -40px;
+    }
+  }
+  .azzam {
+    margin-top: 40px;
+    margin-right: -20px;
+    margin-left: -27px;
+  }
+  h2 {
+    margin-top: -10px;
+  }
+  p {
+    margin-top: -10px;
+  }
+}
+.About {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+}
+.kanan {
+  margin-left: 50px;
+}
+.my {
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+  div.mys {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 45px;
+  }
+}
+.Skills {
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+  margin-top: 15px;
+  // chart
+  @layer demo {
+    #pie {
+      width: 80px;
+      --ng: 320deg;
+      --thickness: 10px;
+      --_inner: calc(70% - var(--thickness));
+      --_outer: calc(var(--_inner) + 1px);
+      mask: radial-gradient(circle, #0000 var(--_inner), #000 var(--_outer));
+      background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), #0000 0);
+    }
+  }
+
+  @layer demo.support {
+    #pie {
+      aspect-ratio: 1;
+      inline-size: 50vmin;
+      border-radius: 50%;
+    }
+
+    .chart {
+      display: grid;
+      place-items: center;
+    }
+
+    .chart > * {
+      grid-area: 1/1;
+    }
+
+    .chart > h3 {
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  @layer demo {
+    #pai {
+      width: 80px;
+      --ng: 250deg;
+      --thickness: 10px;
+      --_inner: calc(70% - var(--thickness));
+      --_outer: calc(var(--_inner) + 1px);
+      mask: radial-gradient(circle, #0000 var(--_inner), #000 var(--_outer));
+      background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), #0000 0);
+    }
+  }
+  @layer demo.support {
+    #pai {
+      aspect-ratio: 1;
+      inline-size: 50vmin;
+      border-radius: 50%;
+    }
+
+    .chart {
+      display: grid;
+      place-items: center;
+    }
+
+    .chart > * {
+      grid-area: 1/1;
+    }
+
+    .chart > h3 {
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  @layer demo {
+    #pei {
+      width: 80px;
+      --ng: 200deg;
+      --thickness: 10px;
+      --_inner: calc(70% - var(--thickness));
+      --_outer: calc(var(--_inner) + 1px);
+      mask: radial-gradient(circle, #0000 var(--_inner), #000 var(--_outer));
+      background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), #0000 0);
+    }
+  }
+  @layer demo.support {
+    #pei {
+      aspect-ratio: 1;
+      inline-size: 50vmin;
+      border-radius: 50%;
+    }
+
+    .chart {
+      display: grid;
+      place-items: center;
+    }
+
+    .chart > * {
+      grid-area: 1/1;
+    }
+
+    .chart > h3 {
+      font-variant-numeric: tabular-nums;
+    }
+  }
+}
+.mya {
+  div.myp {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: 15px;
+  }
+}
+.Porto {
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  .masjid {
+    width: 500px;
+    height: 500px;
+
+    background: url(./../asets/menuju\ kemasjid.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pahala {
+    width: 500px;
+    height: 500px;
+
+    background: url(./../asets/tangkap\ pahala.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .abudzar {
+    width: 500px;
+    height: 500px;
+
+    background: url(./../asets/abu\ dzar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .design {
+    width: 500px;
+    height: 500px;
+
+    background: url(./../asets/design\ article.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.buttom {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+
+  border: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  color: white;
+  background-color: #a4f0ff;
+
+  a {
+    text-decoration: none;
+    color: #274c77;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+footer {
+  background: linear-gradient(
+    90deg,
+    hsla(270, 94%, 25%, 1) 0%,
+    hsla(158, 94%, 49%, 1) 100%
+  );
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Home {
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo {
+  width: 60px;
+}
+.navbar .logo img {
+  width: 120px;
+}
+.navbar .page1 {
+  margin-right: 120px;
+}
+
+.container {
+  display: flex;
+  margin: 45px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.container li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.container li a {
+  text-decoration: none;
+}
+.container li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.container li:hover {
+  color: white;
+}
+
+.Welcome {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Welcome .photo {
+  width: 60px;
+}
+.Welcome .photo img {
+  width: 150px;
+  margin-left: -40px;
+}
+.Welcome .azzam {
+  margin-top: 40px;
+  margin-right: -20px;
+  margin-left: -27px;
+}
+.Welcome h2 {
+  margin-top: -10px;
+}
+.Welcome p {
+  margin-top: -10px;
+}
+
+.About {
+  display: flex;
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+}
+
+.kanan {
+  margin-left: 50px;
+}
+
+.my {
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+}
+.my div.mys {
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 45px;
+}
+
+.Skills {
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  margin-top: 15px;
+}
+@layer demo {
+  .skills #pie {
+    width: 80px;
+    --ng: 320deg;
+    --thickness: 10px;
+    --_inner: calc(70% - var(--thickness));
+    --_outer: calc(var(--_inner) + 1px);
+    -webkit-mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+            mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+    background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), rgba(0, 0, 0, 0) 0);
+  }
+}
+@layer demo.support {
+  .skills #pie {
+    aspect-ratio: 1;
+    inline-size: 50vmin;
+    border-radius: 50%;
+  }
+  .skills .chart {
+    display: grid;
+    place-items: center;
+  }
+  .skills .chart > * {
+    grid-area: 1/1;
+  }
+  .skills .chart > h3 {
+    font-variant-numeric: tabular-nums;
+  }
+}
+@layer demo {
+  .skills #pai {
+    width: 80px;
+    --ng: 250deg;
+    --thickness: 10px;
+    --_inner: calc(70% - var(--thickness));
+    --_outer: calc(var(--_inner) + 1px);
+    -webkit-mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+            mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+    background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), rgba(0, 0, 0, 0) 0);
+  }
+}
+@layer demo.support {
+  .skills #pai {
+    aspect-ratio: 1;
+    inline-size: 50vmin;
+    border-radius: 50%;
+  }
+  .skills .chart {
+    display: grid;
+    place-items: center;
+  }
+  .skills .chart > * {
+    grid-area: 1/1;
+  }
+  .skills .chart > h3 {
+    font-variant-numeric: tabular-nums;
+  }
+}
+@layer demo {
+  .skills #pei {
+    width: 80px;
+    --ng: 200deg;
+    --thickness: 10px;
+    --_inner: calc(70% - var(--thickness));
+    --_outer: calc(var(--_inner) + 1px);
+    -webkit-mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+            mask: radial-gradient(circle, rgba(0, 0, 0, 0) var(--_inner), #000 var(--_outer));
+    background-image: conic-gradient(#210cae, #4dc9e6 var(--ng), rgba(0, 0, 0, 0) 0);
+  }
+}
+@layer demo.support {
+  .skills #pei {
+    aspect-ratio: 1;
+    inline-size: 50vmin;
+    border-radius: 50%;
+  }
+  .skills .chart {
+    display: grid;
+    place-items: center;
+  }
+  .skills .chart > * {
+    grid-area: 1/1;
+  }
+  .skills .chart > h3 {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.mya div.myp {
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.Porto {
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.Porto .masjid {
+  width: 500px;
+  height: 500px;
+  background: url(./../asets/menuju\ kemasjid.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Porto .pahala {
+  width: 500px;
+  height: 500px;
+  background: url(./../asets/tangkap\ pahala.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Porto .abudzar {
+  width: 500px;
+  height: 500px;
+  background: url(./../asets/abu\ dzar.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Porto .design {
+  width: 500px;
+  height: 500px;
+  background: url(./../asets/design\ article.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buttom {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  border: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  color: white;
+  background-color: #a4f0ff;
+}
+.buttom a {
+  text-decoration: none;
+  color: #274c77;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */
