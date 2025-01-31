@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
 }
 
 .Home {
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
 }
 
 .poppins-light {
@@ -74,7 +75,7 @@ body {
 
 .About {
   display: flex;
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
 }
 
 .kanan {
@@ -82,7 +83,7 @@ body {
 }
 
 .my {
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
 }
 .my div.mys {
   font-size: 26px;
@@ -91,13 +92,13 @@ body {
 }
 
 .Skills {
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
 }
 
 .skills {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
   margin-top: 15px;
 }
 @layer demo {
@@ -196,43 +197,47 @@ body {
 }
 
 .Porto {
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: space-evenly;
 }
 .Porto .masjid {
-  width: 500px;
-  height: 500px;
-  background: url(./../asets/menuju\ kemasjid.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.Porto .masjid img {
+  width: 500px;
+  height: 450px;
 }
 .Porto .pahala {
-  width: 500px;
-  height: 500px;
-  background: url(./../asets/tangkap\ pahala.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.Porto .pahala img {
+  width: 500px;
+  height: 450px;
 }
 .Porto .abudzar {
-  width: 500px;
-  height: 500px;
-  background: url(./../asets/abu\ dzar.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.Porto .design {
+.Porto .abudzar img {
   width: 500px;
-  height: 500px;
-  background: url(./../asets/design\ article.png);
+  height: 450px;
+}
+.Porto .design {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.Porto .design img {
+  width: 500px;
+  height: 450px;
 }
 
 .buttom {
@@ -260,7 +265,7 @@ html {
 }
 
 footer {
-  background: linear-gradient(90deg, hsl(270, 94%, 25%) 0%, hsl(158, 94%, 49%) 100%);
+  background: linear-gradient(90deg, hsl(260, 75%, 95%) 0%, hsl(195, 85%, 66%) 50%, hsl(319, 90%, 59%) 100%);
   color: white;
   text-align: center;
   padding-top: 30px;

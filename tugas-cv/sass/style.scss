@@ -1,12 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(
+  90deg,
+  hsla(260, 75%, 95%, 1) 0%,
+  hsla(195, 85%, 66%, 1) 50%,
+  hsla(319, 90%, 59%, 1) 100%
+);
 }
 .Home {
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
 }
 .poppins-light {
@@ -49,7 +56,7 @@ body {
     }
   }
 
-  li:hover{
+  li:hover {
     color: white;
   }
 }
@@ -79,8 +86,9 @@ body {
   display: flex;
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
 }
 .kanan {
@@ -89,8 +97,9 @@ body {
 .my {
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
   div.mys {
     font-size: 26px;
@@ -101,8 +110,9 @@ body {
 .Skills {
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
 }
 .skills {
@@ -110,8 +120,9 @@ body {
   justify-content: space-around;
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
   margin-top: 15px;
   // chart
@@ -223,50 +234,55 @@ body {
 .Porto {
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: space-evenly;
   .masjid {
-    width: 500px;
-    height: 500px;
-
-    background: url(./../asets/menuju\ kemasjid.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    
+    img{
+      width: 500px;
+      height: 450px;
+    }
   }
   .pahala {
-    width: 500px;
-    height: 500px;
-
-    background: url(./../asets/tangkap\ pahala.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    img{
+      width: 500px;
+      height: 450px;
+    }
   }
 
   .abudzar {
-    width: 500px;
-    height: 500px;
-
-    background: url(./../asets/abu\ dzar.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    img{
+      width: 500px;
+      height: 450px;
+    }
   }
-
+  
   .design {
-    width: 500px;
-    height: 500px;
-
-    background: url(./../asets/design\ article.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    img{
+      width: 500px;
+      height: 450px;
+    }
   }
 }
 .buttom {
@@ -296,11 +312,13 @@ html {
 footer {
   background: linear-gradient(
     90deg,
-    hsla(270, 94%, 25%, 1) 0%,
-    hsla(158, 94%, 49%, 1) 100%
+    hsla(260, 75%, 95%, 1) 0%,
+    hsla(195, 85%, 66%, 1) 50%,
+    hsla(319, 90%, 59%, 1) 100%
   );
   color: white;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
