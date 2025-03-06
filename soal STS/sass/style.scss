@@ -1,0 +1,49 @@
+body{
+    background-color: #304D50;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.vector{
+    padding-top: 10px;
+}
+.harmony{
+    padding-top: 70px;
+    margin-left: 15px;
+    align-items: center;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 42px;
+    color: white;
+    
+}
+.respon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.Yours{
+    color: #CEDFC3;
+}
+.fly{
+    padding-left: 20px;
+}
+.container{
+    width: 100%;
+    min-width: 200px;
+}
+@media screen {
+    .container{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
