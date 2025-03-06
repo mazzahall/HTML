@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@font-face {
+  font-family: "quran";
+  src: url(./../../../../font/QuranSurah02-d9lVZ.ttf);
+}
+header {
+  padding-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  /* From https://css.glass */
+  background: rgba(24, 212, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
+
+  background: hsla(305, 65%, 85%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(305, 65%, 85%, 1) 0%,
+    hsla(293, 93%, 68%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(305, 65%, 85%, 1) 0%,
+    hsla(293, 93%, 68%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(305, 65%, 85%, 1) 0%,
+    hsla(293, 93%, 68%, 1) 100%
+  );
+
+//   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2c2ee", endColorstr="#e763f9", GradientType=1 );
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 40px;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    ul {
+      display: flex;
+
+      list-style: none;
+
+      li {
+        padding: 20px 15px;
+        border: 1px solid #a8a8a8;
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+main {
+  .home {
+    .home-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6em;
+      padding: 1em;
+      padding-bottom: 10em;
+      padding-top: 5em;
+      background: hsla(305, 65%, 85%, 1);
+
+          background: linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -moz-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -webkit-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+
+      .home-image {
+        img {
+          width: 400px;
+        }
+      }
+      .home-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        h1 {
+          font-size: 50px;
+          text-align: center;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .home-quran {
+        background: hsla(305, 65%, 85%, 1);
+
+          background: linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -moz-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -webkit-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+        //   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2c2ee", endColorstr="#e763f9", GradientType=1 );
+      display: flex;
+      padding: 1em;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+      h1 {
+        font-size: 50px;
+      }
+      .quran {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        flex-wrap: wrap;
+        gap: 2em;
+        a {
+          padding: 1em;
+          background: hsla(305, 65%, 85%, 1);
+
+          background: linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -moz-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -webkit-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+        //   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2c2ee", endColorstr="#e763f9", GradientType=1 );
+          border-radius: 25px;
+          gap: 1em;
+          display: flex;
+          justify-content: space-between;
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+  background-color: #f4f4f4;
+}
+.ayat {
+  font-family: "Amiri", serif;
+  font-size: 1.5em;
+  color: #333;
+  direction: rtl;
+  text-align: right;
+}
+.translation {
+  margin-bottom: 20px;
+}
+footer {
+  padding: 1em;
+}
+@media screen and (max-width: 768px) {
+  .home {
+    .home-container {
+      .home-image {
+        img {
+          display: none;
+        }
+      }
+    }
+    .home-quran {
+      .quran {
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        gap: 2em;
+        a {
+          padding: 1em;
+          background: hsla(305, 65%, 85%, 1);
+
+          background: linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -moz-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          background: -webkit-linear-gradient(
+            90deg,
+            hsla(305, 65%, 85%, 1) 0%,
+            hsla(293, 93%, 68%, 1) 100%
+          );
+
+          //   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2c2ee", endColorstr="#e763f9", GradientType=1 );
+
+          border-radius: 25px;
+          gap: 1em;
+          display: flex;
+          justify-content: space-between;
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
